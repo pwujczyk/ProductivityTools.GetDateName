@@ -11,3 +11,5 @@ function Get-DateName
 	return $result
 
 }
+
+Export-ModuleMember Get-DateName 
