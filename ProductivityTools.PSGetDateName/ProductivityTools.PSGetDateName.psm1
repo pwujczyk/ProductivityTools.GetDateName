@@ -24,10 +24,21 @@ function Get-LastDateDirectoryName
 	Write-Verbose "Prefix: '$Prefix'"
 	Write-Verbose "Suffix: '$Suffix'"
 
+	$lastDate=[DateTime]::MinValue;
 	$items = Get-ChildItem -Path $Directory -Filter "$Prefix*$Suffix"
 	foreach($item in $items)
 	{
-		[datetime]::ParseExact($item.Name,$(GetFormat))
+		$directoryName=$item.Name;
+		$directoryName=$directoryName.Replace($Prefix,"")
+		$directoryName=$directoryName.Replace($Suffix,"")
+		$format=GetFormat
+		$directoryDate=[datetime]::ParseExact($directoryName,$format,$null)
+		
+		if ($directoryDate -gt $lastDate)
+		{
+			$lastDate=$directoryDate
+		}
+		return $lastDate
 	}
 }
 
