@@ -7,3 +7,5 @@ Module returns date as a string in following format yyyy.MM.dd.hh.mm.ss (for exa
 
  - Get-DateName
  - Get-DateName -Suffix s -Prefix p
+ 
+  # Get-DateName  [![PowershellGallery](http://cdn.productivitytools.tech/Powershell40px.png)](https://www.powershellgallery.com/packages/ProductivityTools.PSGetDateName/)[![ProductivityTools](http://cdn.productivitytools.tech/Blog40px.png)](http://www.productivitytools.tech/get-datename/)
