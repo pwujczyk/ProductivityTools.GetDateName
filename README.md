@@ -1,5 +1,7 @@
-  <p align="right"><img src="http://cdn.productivitytools.tech/Powershell40px.png"></img>
-  <img src="http://cdn.productivitytools.tech/Blog40px.png"></img></p>
+<p align="right">
+<img src="http://cdn.productivitytools.tech/Powershell40px.png"></img>
+<img src="http://cdn.productivitytools.tech/Blog40px.png"></img>
+</p>
   
  # Get-DateName
  
