@@ -1,6 +1,8 @@
 <p align="right">
-<img src="http://cdn.productivitytools.tech/Powershell40px.png"></img>
-<img src="http://cdn.productivitytools.tech/Blog40px.png"></img>
+ <a href="https://www.powershellgallery.com/packages/ProductivityTools.PSGetDateName/">
+  <img src="http://cdn.productivitytools.tech/Powershell40px.png" /></a>
+<a href="http://www.productivitytools.tech/get-datename/">
+<img src="http://cdn.productivitytools.tech/Blog40px.png" /><a>
 </p>
 
 # Get-DateName
