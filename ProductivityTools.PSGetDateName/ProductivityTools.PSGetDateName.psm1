@@ -1,6 +1,6 @@
 function GetFormat()
 {
-	return "yyyy.MM.dd.hh.mm.ss"
+	return "yyyy.MM.dd.HH.mm.ss"
 }
 function Get-DateName 
 {
