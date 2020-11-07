@@ -20,3 +20,4 @@ Module returns date as a string in following format yyyy.MM.dd.hh.mm.ss (for exa
  
  <!--og-image-->
  ![Example](Images/Example.png)
+ .
